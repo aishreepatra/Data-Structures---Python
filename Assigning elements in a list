@@ -1,0 +1,15 @@
+print("Assigning String to a list: \n")
+fruits=["mango","apple","orange","pineapple","grapes"]
+print(fruits)
+a=str(input("\nEnter fruit name: "))
+fruits.append(a)
+print("\nAfter assigning the fruit to the list: \n")
+print(fruits,end="\n\n")
+
+print("Assigning number to a list: \n")
+numbers=[1,2,3,4,5,6,7,8]
+print(numbers)
+b=int(input("\nEnter the number: "))
+numbers.append(b)
+print("\nNumber 9 is assigned to the list : \n")
+print(numbers)
