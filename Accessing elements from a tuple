@@ -1,0 +1,11 @@
+print("Accessing elements from string tuple: \n")
+animals=("Tiger","Lion","Bear","Monkey","Deer")
+print(animals)
+n=int(input("\nEnter the index number (range is 0-4) of the corresponding animal you wish to access: "))
+print(animals[n],end="\n\n")
+
+print("Accessing elements from integer tuple: \n")
+numbers=(10,20,30,40,50)
+print(numbers)
+m=int(input("\nEnter the index (range is 0-4) of the number you wish to access: "))
+print(numbers[m])
