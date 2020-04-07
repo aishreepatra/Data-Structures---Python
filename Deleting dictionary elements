@@ -1,0 +1,7 @@
+print("Deleting different elements from a dictionary: \n")
+print("Food Dictionary- \n")
+food={"milk":"dairy","apple":"fruit","carrot":"vegetable","rice":"cereal","chickpea":"pulses"}
+print(food)
+n=str(input("\nEnter the food item you want to delete from the dictionary-food: "))
+del food[n]
+print("\n",food)
